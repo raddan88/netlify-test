@@ -1,0 +1,125 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ 
+.container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.header {
+    background-color: aquamarine;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.main {
+    background-color: gold; 
+}
+
+table, td, th {
+    color:black;
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+  }
+
+  table, td, th, caption {
+    border: 1px solid #666;
+  }
+  
+  td {
+    text-align: center;
+  }
+
+  th {
+    background-color:#666;
+    color:beige
+  }
+
+  caption {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  td, th {
+    width: 45%;
+    font-weight: bold;
+  }
+
+.main h2 {
+    color:beige;
+}
+
+a {
+    color:black;
+    background-color:gold;
+    text-align: center;
+    display: block;
+}
+
+a:hover {
+    background-color: black;
+    color:beige;
+}
+
+li {
+    margin-left: 4rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    background-color:blueviolet;
+    color:beige;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+iframe {
+  width: 40%;
+    height: 20%;
+    border: 2px solid lightgreen;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    background-color: aliceblue;
+}
+
+p a {
+  color:darkorchid;
+  background-color: beige;
+}

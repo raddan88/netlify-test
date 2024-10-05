@@ -1,0 +1,120 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  /* Positioning */
+  
+  .profile-card {
+    background-color: rgba(51, 170, 51, .3);
+    width: 50%;
+    height: 95%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .head, .links {
+    text-align: center;
+  }
+  
+  body {
+    background-color: #2226;
+    background-image: linear-gradient(yellow, lightgreen);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+  
+  .profile-image {
+    margin-top: 5px;
+  }
+  
+  .head, .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .head, .about {
+    margin-bottom: 6%;
+  }
+  
+  .content {
+    padding: 4% 6%;
+  }
+  
+  .profile-card {
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 5px;
+    box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 50px;
+  }
+  
+  img {
+    padding: 2px;
+    background-color: #555;
+    filter: grayscale(50%);
+  }
+  
+  .content {
+    border-top: 2px solid #666;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(30%);
+  }
+  
+  h1 {
+    font-weight: 600;
+    font-size: 25px;
+  }
+  
+  p {
+    letter-spacing: -.003em;
+    line-height: 1.40;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  a {
+    color:black;
+    display: block;
+    text-align: center;
+  }
+
+  a:hover {
+    color:darkorange;
+    background-color: black;
+  }
+
+  strong {
+    color:blueviolet;
+    letter-spacing: .1rem;
+    line-height: 1.50;
+  }
+
+  iframe {
+    border: 1px solid black;
+    width: 100%; /* takes precedence over the width set with the HTML width attribute */
+    height: 20%;
+  }
